@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Signup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vzr-oR-fdz">
+                                <rect key="frame" x="374.5" y="178" width="41.5" height="1"/>
+                                <color key="backgroundColor" name="Black"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="sFd-hk-LBe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo" translatesAutoresizingMaskIntoConstraints="NO" id="SA6-Dw-sXh">
+                                <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                            </imageView>
+                            <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIGN IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjA-w3-Dln">
+                                <rect key="frame" x="167" y="140" width="80.5" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Hz8-LL-lqX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Baskerville-Italic" family="Baskerville" pointSize="24"/>
+                                <color key="textColor" red="0.073762690359999994" green="0.073762690359999994" blue="0.073762690359999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CHE-Uo-BUV">
+                                <rect key="frame" x="0.0" y="180" width="414" height="682"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ENTER USERNAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tk0-ab-VJX">
+                                        <rect key="frame" x="10" y="139" width="394" height="30"/>
+                                        <color key="tintColor" name="AccentColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="drb-sL-Bhj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Baskerville-Italic" family="Baskerville" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ENTER PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqW-wa-wJa">
+                                        <rect key="frame" x="10" y="225" width="140" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Cvk-5n-r2n"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Baskerville-Italic" family="Baskerville" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JcI-FT-ifZ">
+                                        <rect key="frame" x="12" y="254" width="394" height="40"/>
+                                        <color key="backgroundColor" name="White"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="hkm-tB-uEj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Baskerville-Italic" family="Baskerville" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="phonePad" secureTextEntry="YES"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i23-T9-nuJ">
+                                        <rect key="frame" x="10" y="345" width="394" height="40"/>
+                                        <color key="backgroundColor" name="DarkGrey"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="CoV-tI-aXv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Baskerville-Italic" family="Baskerville" pointSize="20"/>
+                                        <color key="tintColor" name="AccentColor"/>
+                                        <state key="normal" title="SignIn">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" name="AccentColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXI-DE-BV4">
+                                        <rect key="frame" x="8" y="410" width="394" height="40"/>
+                                        <color key="backgroundColor" name="DarkGrey"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="8cD-A3-BsS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Baskerville-Italic" family="Baskerville" pointSize="20"/>
+                                        <state key="normal" title="Signup">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f71-qv-Eq4">
+                                        <rect key="frame" x="12" y="177" width="394" height="40"/>
+                                        <color key="backgroundColor" name="White"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="eOA-x5-Cqh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Baskerville-Italic" family="Baskerville" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                        <imageReference key="background" image="square.and.arrow.up.fill" catalog="system" symbolScale="default"/>
+                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XKS-hk-bti">
+                                        <rect key="frame" x="30" y="622" width="354" height="40"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hV7-Ce-1Mz">
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="40"/>
+                                                <color key="backgroundColor" name="DarkGrey"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="DF6-ZQ-4NB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Baskerville-Italic" family="Baskerville" pointSize="15"/>
+                                                <state key="normal" title="By signing in you agree to our Terms and Conditions.">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="354" id="dc6-dJ-Vaf"/>
+                                            <constraint firstAttribute="height" constant="40" id="zJG-vh-I7t"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="JcI-FT-ifZ" secondAttribute="trailing" constant="10" id="446-u4-eF2"/>
+                                    <constraint firstItem="i23-T9-nuJ" firstAttribute="top" secondItem="JcI-FT-ifZ" secondAttribute="bottom" constant="60" id="4Ty-DH-pV4"/>
+                                    <constraint firstAttribute="trailing" secondItem="tk0-ab-VJX" secondAttribute="trailing" constant="10" id="CAo-76-EVw"/>
+                                    <constraint firstAttribute="trailing" secondItem="JcI-FT-ifZ" secondAttribute="trailing" constant="10" id="EC9-MW-Kpd"/>
+                                    <constraint firstItem="XKS-hk-bti" firstAttribute="leading" secondItem="CHE-Uo-BUV" secondAttribute="leading" constant="30" id="H6K-8o-i1A"/>
+                                    <constraint firstItem="tk0-ab-VJX" firstAttribute="leading" secondItem="CHE-Uo-BUV" secondAttribute="leading" constant="10" id="Qc1-N7-ILS"/>
+                                    <constraint firstAttribute="trailing" secondItem="gXI-DE-BV4" secondAttribute="trailing" constant="10" id="Sy5-Xc-L69"/>
+                                    <constraint firstItem="i23-T9-nuJ" firstAttribute="leading" secondItem="CHE-Uo-BUV" secondAttribute="leading" constant="10" id="TNp-sY-Ei8"/>
+                                    <constraint firstAttribute="trailing" secondItem="XKS-hk-bti" secondAttribute="trailing" constant="30" id="VtG-w3-rkL"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pqW-wa-wJa" secondAttribute="trailing" constant="20" symbolic="YES" id="XRh-AE-dKX"/>
+                                    <constraint firstAttribute="bottom" secondItem="XKS-hk-bti" secondAttribute="bottom" constant="20" id="YsS-4h-fHh"/>
+                                    <constraint firstItem="pqW-wa-wJa" firstAttribute="leading" secondItem="CHE-Uo-BUV" secondAttribute="leading" constant="10" id="Z03-Ad-y02"/>
+                                    <constraint firstItem="tk0-ab-VJX" firstAttribute="top" secondItem="CHE-Uo-BUV" secondAttribute="top" constant="40" id="Z0A-fw-U0n"/>
+                                    <constraint firstItem="JcI-FT-ifZ" firstAttribute="leading" secondItem="CHE-Uo-BUV" secondAttribute="leading" constant="10" id="ZRU-Zw-xZn"/>
+                                    <constraint firstAttribute="trailing" secondItem="f71-qv-Eq4" secondAttribute="trailing" constant="10" id="ZVO-Qf-Vfc"/>
+                                    <constraint firstItem="gXI-DE-BV4" firstAttribute="top" secondItem="i23-T9-nuJ" secondAttribute="bottom" constant="10" id="aQJ-Du-dEX"/>
+                                    <constraint firstItem="f71-qv-Eq4" firstAttribute="top" secondItem="tk0-ab-VJX" secondAttribute="bottom" constant="10" id="n0e-Ca-oPo"/>
+                                    <constraint firstItem="JcI-FT-ifZ" firstAttribute="top" secondItem="pqW-wa-wJa" secondAttribute="bottom" constant="10" id="nZg-1R-ojp"/>
+                                    <constraint firstItem="pqW-wa-wJa" firstAttribute="top" secondItem="f71-qv-Eq4" secondAttribute="bottom" constant="10" id="r4q-kD-XTP"/>
+                                    <constraint firstItem="gXI-DE-BV4" firstAttribute="leading" secondItem="CHE-Uo-BUV" secondAttribute="leading" constant="10" id="tsG-Aa-uUu"/>
+                                    <constraint firstItem="JcI-FT-ifZ" firstAttribute="leading" secondItem="CHE-Uo-BUV" secondAttribute="leading" constant="10" id="twy-4n-CKq"/>
+                                    <constraint firstAttribute="trailing" secondItem="i23-T9-nuJ" secondAttribute="trailing" constant="10" id="v3c-6L-Qgx"/>
+                                    <constraint firstItem="f71-qv-Eq4" firstAttribute="leading" secondItem="CHE-Uo-BUV" secondAttribute="leading" constant="10" id="xza-hi-UBA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Vzr-oR-fdz" firstAttribute="top" secondItem="hjA-w3-Dln" secondAttribute="top" constant="38" id="7zB-LY-XhW"/>
+                            <constraint firstItem="Vzr-oR-fdz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="BgS-jU-nQP"/>
+                            <constraint firstAttribute="trailing" secondItem="SA6-Dw-sXh" secondAttribute="trailing" id="F28-Nf-Lni"/>
+                            <constraint firstItem="hjA-w3-Dln" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FzC-Kx-jg4"/>
+                            <constraint firstItem="SA6-Dw-sXh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="W3A-bv-6lq"/>
+                            <constraint firstItem="hjA-w3-Dln" firstAttribute="top" secondItem="SA6-Dw-sXh" secondAttribute="bottom" id="WRA-ON-yaZ"/>
+                            <constraint firstItem="CHE-Uo-BUV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WvD-np-JO7"/>
+                            <constraint firstItem="hjA-w3-Dln" firstAttribute="top" secondItem="SA6-Dw-sXh" secondAttribute="bottom" id="Y1h-L1-Q4M"/>
+                            <constraint firstItem="SA6-Dw-sXh" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="biB-Os-FSc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CHE-Uo-BUV" secondAttribute="bottom" id="du2-Ja-7Xv"/>
+                            <constraint firstAttribute="trailing" secondItem="CHE-Uo-BUV" secondAttribute="trailing" id="j2N-bu-O4z"/>
+                            <constraint firstItem="CHE-Uo-BUV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kqf-Vz-CTC"/>
+                            <constraint firstItem="CHE-Uo-BUV" firstAttribute="top" secondItem="hjA-w3-Dln" secondAttribute="bottom" id="mbK-nU-ryJ"/>
+                            <constraint firstItem="SA6-Dw-sXh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rMa-o4-QWI"/>
+                            <constraint firstItem="SA6-Dw-sXh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tFH-ad-BgC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vzr-oR-fdz" secondAttribute="trailing" constant="-22" id="x2Z-oh-gJ7"/>
+                            <constraint firstItem="SA6-Dw-sXh" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.107143" id="xiC-Nq-hGM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23" y="58"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="demo" width="300" height="168"/>
+        <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Black">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="DarkGrey">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
